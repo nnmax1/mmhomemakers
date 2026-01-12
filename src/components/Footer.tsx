@@ -68,19 +68,8 @@ const Footer = () => {
               © {currentYear} M&M Homemakers Inc. All rights reserved.
             </p>
 
-            {/* Social Links */}
-            <div className="flex items-center gap-4">
-              {[Instagram, Linkedin, Facebook].map((Icon, index) => (
-                <motion.a
-                  key={index}
-                  href="#"
-                  whileHover={{ y: -2 }}
-                  className="w-10 h-10 rounded-full border border-primary-foreground/20 flex items-center justify-center hover:border-accent hover:bg-accent transition-colors group"
-                >
-                  <Icon className="w-4 h-4 text-primary-foreground/70 group-hover:text-accent-foreground transition-colors" />
-                </motion.a>
-              ))}
-            </div>
+     
+  
           </div>
         </div>
       </div>

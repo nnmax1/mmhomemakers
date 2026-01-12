@@ -1,6 +1,6 @@
 import { motion, useInView } from "framer-motion";
 import { useRef, useState } from "react";
-import { Phone, Mail, MapPin, Send } from "lucide-react";
+import { Phone, Mail, MapPin, Send, Instagram } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -67,7 +67,7 @@ const Contact = () => {
               </a>
 
               <a
-                href="mailto:info@peakdevelopersinc.com"
+                href="mailto:mmhomemakersllc@gmail.com"
                 className="flex items-center gap-4 group"
               >
                 <div className="w-12 h-12 rounded-full bg-accent/10 flex items-center justify-center group-hover:bg-accent transition-colors">
@@ -88,6 +88,18 @@ const Contact = () => {
                   <div className="text-foreground font-medium">New Jersey, USA</div>
                 </div>
               </div>
+
+            <div className="flex items-center gap-4">
+                <div className="w-12 h-12 rounded-full bg-accent/10 flex items-center justify-center">
+                  <Instagram className="w-5 h-5 text-accent" />
+                </div>
+                <div>
+                  <div className="text-sm text-muted-foreground">Instagram</div>
+                  <div className="text-foreground font-medium">@mmhomemakers</div>
+                </div>
+              </div>
+
+
             </div>
           </motion.div>
 
