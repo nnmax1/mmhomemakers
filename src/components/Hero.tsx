@@ -31,7 +31,7 @@ const Hero = () => {
             className="mb-6"
           >
             <span className="inline-block text-sm tracking-[0.3em] text-white/70 uppercase">
-              New Jersey's Premier
+              New Jersey's Premier Home Builder
             </span>
           </motion.div>
 
@@ -41,9 +41,7 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.5 }}
             className="font-display text-4xl md:text-6xl lg:text-7xl font-medium text-white leading-[1.1] mb-6"
           >
-            A Top Real Estate
-            <br />
-            Development Company
+           M&M Homemakers
           </motion.h1>
 
           <motion.p
