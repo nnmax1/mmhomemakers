@@ -65,7 +65,7 @@ const Footer = () => {
         <div className="border-t border-primary-foreground/10 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-sm text-primary-foreground/50">
-              © {currentYear} M&M Homemakers Inc. All rights reserved.
+              © {currentYear} M&M Homemakers LLC. All rights reserved.
             </p>
 
      
