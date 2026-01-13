@@ -3,7 +3,7 @@ import { useRef } from "react";
 import { ArrowUpRight } from "lucide-react";
 import project1 from "@/assets/667howard.jpg";
 import project2 from "@/assets/520bennington.jpg";
-import project3 from "@/assets/40godfrey.jpg";
+import project3 from "@/assets/40godfrey.png";
 import project4 from "@/assets/southvandien.png";
 
 const projects = [

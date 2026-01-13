@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
-import aboutImage from "@/assets/about-image.jpg";
+import aboutImage from "@/assets/about-img.png";
 
 const stats = [
   { value: "5+", label: "Years Experience" },
@@ -28,7 +28,7 @@ const About = () => {
             <div className="relative aspect-[3/4] overflow-hidden">
               <img
                 src={aboutImage}
-                alt="Peak Developers luxury home"
+                alt="M&M luxury home example"
                 className="w-full h-full object-cover"
               />
             </div>
@@ -51,7 +51,7 @@ const About = () => {
             </h2>
             <div className="w-16 h-0.5 bg-accent mb-8" />
             <p className="text-muted-foreground text-lg leading-relaxed mb-6">
-              As a leading home builder, we specialize in developing properties, 
+              As a professional home builder, we specialize in developing properties, 
               meticulously investing into each home to deliver elevated, quality residences 
               to new buyers. Our commitment extends beyond just selling homes; we aim 
               to create living spaces that inspire and delight.

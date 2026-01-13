@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { useToast } from "@/hooks/use-toast";
+import contactImage from "@/assets/nicehouse.png";
 
 const Contact = () => {
   const ref = useRef(null);
@@ -99,11 +100,31 @@ const Contact = () => {
                 </div>
               </div>
 
+              
 
             </div>
           </motion.div>
 
-        
+          {/* Right Content */}
+          <motion.div
+            ref={ref}
+            initial={{ opacity: 0, x: 50 }}
+            animate={isInView ? { opacity: 1, x: 0 } : {}}
+            transition={{ duration: 0.8 }}
+          >
+
+        <div className="relative aspect-[3/4] overflow-hidden">
+              <img
+                src={contactImage}
+                alt="house placeholder img"
+                className="w-full h-full object-cover"
+              />
+            </div>
+
+          </motion.div>
+
+     
+
         </div>
       </div>
     </section>
