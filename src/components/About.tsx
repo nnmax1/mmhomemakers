@@ -4,7 +4,7 @@ import { useRef } from "react";
 import aboutImage from "@/assets/about-img.png";
 
 const stats = [
-  { value: "5+", label: "Years Experience" },
+  { value: "7+", label: "Years Experience" },
   { value: "10+", label: "Projects Completed" },
   { value: "100%", label: "Client Satisfaction" },
 ];
@@ -46,8 +46,8 @@ const About = () => {
               Welcome to M&M Homemakers
             </span>
             <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-medium text-foreground mb-6 leading-tight">
-              Bridging The Gap Between
-              <span className="text-gradient"> Spec and Custom</span>
+              Designer Built.
+              <span className="text-gradient"> Home Inspired.</span>
             </h2>
             <div className="w-16 h-0.5 bg-accent mb-8" />
             <p className="text-muted-foreground text-lg leading-relaxed mb-6">
