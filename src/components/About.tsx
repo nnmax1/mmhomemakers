@@ -51,15 +51,14 @@ const About = () => {
             </h2>
             <div className="w-16 h-0.5 bg-accent mb-8" />
             <p className="text-muted-foreground text-lg leading-relaxed mb-6">
-              As a leading development company, we specialize in building properties, 
-              thoroughly enhancing each home to deliver elevated, quality residences 
+              As a leading home builder, we specialize in developing properties, 
+              meticulously investing into each home to deliver elevated, quality residences 
               to new buyers. Our commitment extends beyond just selling homes; we aim 
               to create living spaces that inspire and delight.
             </p>
             <p className="text-muted-foreground leading-relaxed mb-10">
               At M&M Homemakers, we are an investment-driven residential development 
-              company, dedicated to delivering exceptional living experiences. We invest 
-              meticulously into each property, ensuring that each home not only meets 
+              company, dedicated to delivering exceptional living experiences. We comprehensively invest into each property, ensuring that each home not only meets 
               but surpasses expectations.
             </p>
 

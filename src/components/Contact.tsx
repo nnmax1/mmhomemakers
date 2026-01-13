@@ -43,12 +43,12 @@ const Contact = () => {
               Get In Touch
             </span>
             <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-medium text-foreground mb-6 leading-tight">
-              Ready to Start Your
-              <span className="text-gradient"> Dream Project?</span>
+              Do you want to learn more about
+              <span className="text-gradient"> M&M Homemakers?</span>
             </h2>
             <p className="text-muted-foreground text-lg leading-relaxed mb-10">
-              Contact us today to schedule a consultation and discover how we 
-              can build New Jersey's next dream home.
+              Feel free to reach out to us today and discover how we 
+              can build New Jersey's next dream home!
             </p>
 
             {/* Contact Info */}
