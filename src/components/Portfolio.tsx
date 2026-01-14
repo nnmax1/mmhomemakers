@@ -5,10 +5,19 @@ import project1 from "@/assets/667howard.jpg";
 import project2 from "@/assets/520bennington.jpg";
 import project3 from "@/assets/40godfrey.png";
 import project4 from "@/assets/southvandien.png";
+import project5 from "@/assets/test.png";
 
 const projects = [
   {
     id: 1,
+    title: "237 Diane Place",
+    location: "Paramus, NJ",
+    year: "2026 - Present",
+    image: project5,
+    status: "In Progress",
+  },
+  {
+    id: 2,
     title: "40 Godfrey Terrace",
     location: "Glen Rock, NJ",
     year: "2025 - Present",
@@ -16,7 +25,7 @@ const projects = [
     status: "In Progress",
   },
   {
-    id: 2,
+    id: 3,
     title: "667 Howard Rd",
     location: "Ridgewood, NJ",
     year: "2024",
@@ -24,7 +33,7 @@ const projects = [
     status: "Completed",
   },
     {
-    id: 3,
+    id: 4,
     title: "520 Bennington Terrace",
     location: "Ridgewood, NJ",
     year: "2023",
@@ -32,7 +41,7 @@ const projects = [
     status: "Completed",
   },
   {
-    id: 4,
+    id: 5,
     title: "318 S. Van Dien Ave",
     location: "Ridgewood, NJ",
     year: "2022",
