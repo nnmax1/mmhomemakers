@@ -52,8 +52,8 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="mailto:info@peakdevelopersinc.com" className="hover:text-primary-foreground transition-colors">
-                  mmhomemakersllc@gmail.com
+                <a href="mailto:contact@mmhomemakers.com" className="hover:text-primary-foreground transition-colors">
+                  contact@mmhomemakers.com
                 </a>
               </li>
               <li>New Jersey, USA</li>

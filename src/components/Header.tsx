@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-import { Menu, X, Phone } from "lucide-react";
+import { Menu, X, Phone, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
-
+ 
 const navLinks = [
   { name: "Home", href: "#home" },
   { name: "About", href: "#about" },
@@ -76,7 +76,18 @@ const Header = () => {
               <Phone className="w-4 h-4" />
               (201) 914-4498
             </a>
+           <a
+              href="mailto:contact@mmhomemakers.com"
+              className={`flex items-center gap-2 text-sm font-medium transition-colors ${
+                isScrolled ? "text-foreground/80 hover:text-foreground" : "text-white/80 hover:text-white"
+              }`}
+            >
+              <Mail className="w-4 h-4" />
+              contact@mmhomemakers.com
+            </a>
      
+
+
           </div>
 
           {/* Mobile Menu Button */}
