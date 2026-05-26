@@ -20,9 +20,9 @@ const projects = [
     id: 2,
     title: "40 Godfrey Terrace",
     location: "Glen Rock, NJ",
-    year: "2025 - Present",
+    year: "2025 - 2026",
     image: project3,
-    status: "In Progress",
+    status: "Completed",
   },
   {
     id: 3,
