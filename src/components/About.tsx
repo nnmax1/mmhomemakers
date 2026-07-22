@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
-import aboutImage from "@/assets/about-img.png";
+import aboutImage from "@/assets/house_interior.gif";
 
 const stats = [
   { value: "7+", label: "Years Experience" },
